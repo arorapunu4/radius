@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/arorapunu4/radius/static/css/main.2cce8147.chunk.css",
-    "main.js": "/arorapunu4/radius/static/js/main.93577de4.chunk.js",
-    "main.js.map": "/arorapunu4/radius/static/js/main.93577de4.chunk.js.map",
-    "runtime~main.js": "/arorapunu4/radius/static/js/runtime~main.fed25db7.js",
-    "runtime~main.js.map": "/arorapunu4/radius/static/js/runtime~main.fed25db7.js.map",
-    "static/js/2.4d915f1e.chunk.js": "/arorapunu4/radius/static/js/2.4d915f1e.chunk.js",
-    "static/js/2.4d915f1e.chunk.js.map": "/arorapunu4/radius/static/js/2.4d915f1e.chunk.js.map",
-    "index.html": "/arorapunu4/radius/index.html",
-    "precache-manifest.b70e71c876d6d1faaa513da9dfaf8acf.js": "/arorapunu4/radius/precache-manifest.b70e71c876d6d1faaa513da9dfaf8acf.js",
-    "service-worker.js": "/arorapunu4/radius/service-worker.js",
-    "static/css/main.2cce8147.chunk.css.map": "/arorapunu4/radius/static/css/main.2cce8147.chunk.css.map",
-    "static/media/logo.svg": "/arorapunu4/radius/static/media/logo.5d5d9eef.svg"
+    "main.css": "/radius/static/css/main.2cce8147.chunk.css",
+    "main.js": "/radius/static/js/main.f138eaac.chunk.js",
+    "main.js.map": "/radius/static/js/main.f138eaac.chunk.js.map",
+    "runtime~main.js": "/radius/static/js/runtime~main.c4a59288.js",
+    "runtime~main.js.map": "/radius/static/js/runtime~main.c4a59288.js.map",
+    "static/js/2.4d915f1e.chunk.js": "/radius/static/js/2.4d915f1e.chunk.js",
+    "static/js/2.4d915f1e.chunk.js.map": "/radius/static/js/2.4d915f1e.chunk.js.map",
+    "index.html": "/radius/index.html",
+    "precache-manifest.68cb0f6bd9c04129b0b9f707feca4fdb.js": "/radius/precache-manifest.68cb0f6bd9c04129b0b9f707feca4fdb.js",
+    "service-worker.js": "/radius/service-worker.js",
+    "static/css/main.2cce8147.chunk.css.map": "/radius/static/css/main.2cce8147.chunk.css.map",
+    "static/media/logo.svg": "/radius/static/media/logo.5d5d9eef.svg"
   }
 }
