@@ -18,7 +18,7 @@ import registerServiceWorker from './registerServiceWorker';
 
 ReactDOM.render(
  <Provider store={configureStore()}>
-   <Router>
+   <Router basename={'/radius'}>
         <div>
           <HeaderMain />
           <Switch>
