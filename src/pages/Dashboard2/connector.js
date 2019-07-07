@@ -1,15 +1,14 @@
-import { getAllAccountSummaryBalanceData } from "../actions/DashboardData";
+
+import { getAllAccountSummaryBalanceData} from "../../actions/DashboardData"
 
 export const mapStateToProps = state => {
   return {
-    newData: state.dashboardReducer,
-
+TransactionData:state.dashboardReducer
   };
 };
 
 export const mapDispatchToProps = dispatch => {
   return {
     getAllAccountSummaryBalanceData: () => dispatch(getAllAccountSummaryBalanceData()),
-
-  };
+  };   
 };

@@ -2,8 +2,9 @@ import api from "./service";
 
 
 export const getAllAccountSummaryBalanceData = () => dispatch => {
+  dispatch({ type: "GET_LOADING_STATUS" });
   return api
-    .allAccountSummaryBalanceData("https://hacker-news.firebaseio.com/v0/item/192327.json?print=pretty")
+    .allAccountSummaryBalanceData("https://api.myjson.com/bins/km0lf")
     .getAllAccountSummaryBalanceData("data")
     .then(res => {
         return dispatch({

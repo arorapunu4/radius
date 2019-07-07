@@ -1,0 +1,143 @@
+.current-balance-container .card {
+  border: none;
+}
+.PageHeading{
+    font-family: BerkeleyStd;
+  font-size: 42px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.14;
+  letter-spacing: 0.5px;
+  text-align: left;
+  color: #022737;
+
+
+}
+.arrow-animation {
+    background-image: url("/assets/images/white_arrow.png");
+    background-repeat: no-repeat;
+    width: 17px;
+    height: 13px;
+    position: relative;
+    left: 10px;
+    top: initial;
+    -webkit-transition: left 0.2s;
+    /* For Safari 3.1 to 6.0 */
+    transition: left 0.2s;
+    background-size: contain; }
+    .Cta-Wrapper{
+        display: flex;
+        justify-content: space-between;
+        margin: 40px 0 0 0 !important
+    }
+.Cta{
+    display: block;
+    padding: 21px;
+    background: #006778;
+    border: 1px solid #006778;
+    position: relative;
+    text-align: center; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+
+}
+.Cta h2{
+    color:white;
+    font-weight: normal;
+    font-size: 16px;
+    margin: 0;
+}
+.current-balance-container .card:hover {
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1) !important;
+}
+.current-balance-container .balance-card {
+  padding: 26px 50px;
+  height: 172px;
+}
+.current-balance-container .balance-card b {
+  font-family: BerkeleyStd-Book;
+  font-size: 18px;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.8px;
+  color: #505050;
+}
+.current-balance-container .balance-card h1 {
+  font-family: HelveticaNeue-Light;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 1.4px;
+  color: #a8b400;
+}
+.current-balance-container .balance-card h1.large-text {
+  font-size: 42px;
+}
+.current-balance-container .balance-card h1.small-text {
+  font-size: 28px;
+  line-height: 42px;
+}
+.current-balance-container .balance-card h1.extra-small-text {
+  font-size: 24px;
+}
+.current-balance-container .balance-card p {
+  position: absolute;
+  /* margin-top: 30px; */
+  margin-bottom: 0;
+  bottom: 12px;
+}
+.current-balance-container .balance-card p a {
+  font-family: HelveticaNeue-CondensedBold;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: condensed;
+  line-height: 1.88;
+  letter-spacing: 1px;
+  color: #006778;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 20px;
+}
+.current-balance-container .balance-card:first-child {
+  margin-bottom: 20px;
+}
+ /* tooltip css */
+ .tool-tip {
+    position: relative;
+    outline: none; }
+  
+  .tool-tip:hover .tooltiptext,
+  .tool-tip:hover .tooltiptext-i {
+    visibility: visible;
+    top: 20px;
+    left: 0px; }
+  
+    .tooltiptext-i {
+      visibility: hidden;
+      font-family: HelveticaNeue;
+      text-transform: capitalize;
+      font-size: 14px;
+      align-items: center;
+      justify-content: center;
+      display: flex;
+      width: 140px;
+      height: 40px;
+      background-color: #747274;
+      padding-top: 4px;
+      color: #fff;
+      border-radius: 3px;
+      /* Position the tooltip */
+      position: absolute;
+      z-index: 1; }
+
+      .mr-icon{
+          margin-left: 5px;
+          cursor: pointer;
+      }

@@ -1,0 +1,74 @@
+.footer {
+    height: 232px;
+    width: 100%;
+    background-color: #022737;
+    /* background-image: url("./vc_bk.png"); */
+    background-repeat: no-repeat;
+    background-position: right bottom;
+  }
+  .footer .main-max-width-container {
+    padding: 10px 30px;
+    margin: auto;
+  }
+  .footer hr.Line-footer-logo {
+    border-bottom: 1px solid transparent;
+  }
+  .footer img {
+    width: 173px;
+    height: 70px;
+  }
+  .footer .left-container {
+    padding: 65px 0px 0px 0px;
+  }
+  .footer .right-container {
+    padding: 29px 0px 0px 0px;
+  }
+  .footer .right-container .footer-items p {
+    font-family: HelveticaNeue;
+    font-size: 10px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.5px;
+    color: #fff;
+    margin-bottom: 23px;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+  .footer .copyright {
+    opacity: 0.5;
+    font-family: HelveticaNeue;
+    font-size: 12px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #fff;
+  }
+  .footer .footer-items {
+    font-family: HelveticaNeue;
+    font-size: 10px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.5px;
+    color: #fff;
+  }
+  @media only screen and (min-width: 320px) and (max-width: 767px) {
+    .footer {
+      height: auto;
+    }
+    .footer .left-container {
+      padding: 29px 0px 0px 0px;
+    }
+    .footer .right-container {
+      padding-bottom: 81px;
+    }
+    .footer .left-container hr {
+      border-top: 1px solid #628391;
+    }
+  }
+  

@@ -1,5 +1,6 @@
 const initialState = {
     FirstData: [],
+    IsLoading: true
 
   };
   
@@ -8,7 +9,14 @@ const initialState = {
       case "ACCOUNT_DATA_ALL":
         return {
           ...state,
-          FirstData: action.value
+          FirstData: action.value,
+          IsLoading: false
+        };
+
+        case"GET_LOADING_STATUS":
+        return {
+          ...state,
+          IsLoading: true
         };
     
       default:
