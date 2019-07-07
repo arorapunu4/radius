@@ -22,8 +22,8 @@ ReactDOM.render(
         <div>
           <HeaderMain />
           <Switch>
-          <Route  path={`${process.env.PUBLIC_URL}/page2`} component={Dashboard2} />
-            <Route path={`${process.env.PUBLIC_URL}/`} component={Dashboard} />
+          <Route  path={"/page2"} component={Dashboard2} />
+            <Route path={"/"} component={Dashboard} />
           
           </Switch>
           <Footer />
