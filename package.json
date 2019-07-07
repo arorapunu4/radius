@@ -39,7 +39,7 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://arorapunu4.github.io",
+  "homepage": ".",
   "devDependencies": {
     "redux-devtools-extension": "^2.13.8"
   }
