@@ -18,6 +18,7 @@ import registerServiceWorker from './registerServiceWorker';
 
 ReactDOM.render(
  <Provider store={configureStore()}>
+ 
    <Router basename={process.env.PUBLIC_URL||'/'}>
         <div>
           <HeaderMain />
