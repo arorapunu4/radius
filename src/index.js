@@ -13,12 +13,13 @@ import Dashboard2 from  "./pages/Dashboard2/Dashboard2"
 import HeaderMain from "./commonComponents/headermain/Header";
 import Footer from "./commonComponents/footermain/footer";
 import 'bootstrap/dist/css/bootstrap.min.css';
+import history from "../src/history";
 
 import registerServiceWorker from './registerServiceWorker';
 
 ReactDOM.render(
  <Provider store={configureStore()}>
-   <Router basename={'/radius'}>
+   <Router history={history}>
         <div>
           <HeaderMain />
           <Switch>
